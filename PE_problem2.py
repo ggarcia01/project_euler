@@ -16,12 +16,11 @@ find the sum of the even-valued terms.
 
 fib_lst = [1,2] #initiating the Fibonacci sequence
 
-
 sum = 2 #starting at 2 since we are not accounting for it in the loop below
 while fib_lst[-1] < 4e6: #while the last fib sequence value is less than 4 million
-    next_term = fib_lst[-1] + fib_lst[-2]
-    fib_lst += [next_term]
-    if next_term%2 ==0:
-        sum += next_term
+    next_term = fib_lst[-1] + fib_lst[-2] #get the last 2 numbers in the sequence and add them to create next term in the sequence
+    fib_lst += [next_term] #append the next term in sequence to our list
+    if next_term%2 ==0: #if the next term is even (meaning divisible by)
+        sum += next_term #then also add it to our total sum
 
 print('sum of all even-valued fibbonaci numbers below 4 million is: ',sum)
