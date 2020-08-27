@@ -30,3 +30,34 @@ while bool == False:
 
 
 print(value)
+
+
+
+'''
+
+another way to solve p5:
+
+
+idea ->
+
+make isPrime() fxn
+make primeFactors() fxn
+
+
+list =[]
+for  i in 1-20:
+    if isPrime(i) is true:
+        add # to list
+    if i is not prime:
+        find prime factors using primeFactors()
+        add primeFactors to list
+
+
+prod = 1
+for i in len(list):
+    prod *= i
+
+our answer is i
+
+
+'''
