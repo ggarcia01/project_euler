@@ -41,19 +41,19 @@ def SieveOfEratosthenes(n):
     #create a list of all nums up to N
     num_lst = list(range(n+1))
     #change it to arr
-    num_arr = np.array(num_lst)
-
+    num_arr = np.array(num_lst,dtype='int64')
     #index the num arr to only contain prime numbers, starting from 2
     return num_arr[bool_arr][2:]
 
 
 startTime = datetime.now()
 
+np.seterr(all='warn')
 
 N = 2_000_000
 
-
 primes = SieveOfEratosthenes(N)
+
 print('sum of first {0} primes is:'.format(N), primes.sum())
 
 print()
