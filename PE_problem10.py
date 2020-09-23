@@ -3,7 +3,7 @@ garcia, gil
 created: 8/29/2020
 last updated: 9/23/2020
 
-project euler problem #9 description:
+project euler problem #10 description:
 
 The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
@@ -60,5 +60,3 @@ print()
 print('time')
 print('------------------------')
 print(datetime.now() - startTime)
-
-#5736396
