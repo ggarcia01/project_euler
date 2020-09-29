@@ -18,14 +18,14 @@ TEST_VALUE = 600851475143
 def isPrime(value):
 
     #checking edge cases
-    if value == 1:
+    if value < 0 or value == 0 or value == 1:
         return False
     elif value == 2:
         return True
     else:
         #for every other number
         #test for divisibility between 2 and the given number
-        for i in range(2,value):
+        for i in range(2,  int(round(np.sqrt(value))+1)):
             if value%i == 0: #if any divide w.o a remainder
                 return False #the number is not a prime
         return True #otherwise, it is

@@ -3,7 +3,7 @@ garcia, gil
 created: 8/29/2020
 last updated: 8/29/2020
 
-project euler problem #8 description:
+project euler problem #9 description:
 
 A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 
