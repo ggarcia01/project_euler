@@ -1,6 +1,6 @@
 '''
 garcia, gil
-created:
+created: 8/31/2020
 last edited:9/28/2020
 
 project euler prob # 11
